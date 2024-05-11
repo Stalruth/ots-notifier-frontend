@@ -55,6 +55,14 @@ async function submitWebhook(e) {
 }
 </script>
 
+<svelte:head>
+  <title>Open Teamsheet Notifier</title>
+  <meta property="og:title" content="Open Teamsheet Notifier" />
+  <meta property="og:url" content="https://ots-notifier.stalruth.dev/" />
+  <meta property="og:description" content="Receive a Discord message when the Open Teamlists from a major event are published." />
+  <meta name="description" content="Receive a Discord message when the Open Teamlists from a major event are published." />
+</svelte:head>
+
 <main>
   <h1>Open Teamsheet Notifier</h1>
 
