@@ -1,0 +1,43 @@
+form {
+  margin: auto;
+  display: flex;
+  margin-bottom: 0;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+label {
+  flex-grow: 1;
+  display: flex;
+  margin-bottom: 0;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+label input {
+  margin-bottom: 0;
+}
+
+input[type="submit"] {
+  padding: 0.4rem 0.8rem;
+  box-sizing: border-box;
+  border-width: 1px;
+}
+
+.success, .error {
+  padding: 0.5rem 1.5rem;
+  margin: 1rem auto auto auto;
+  max-width: var(--width-card-wide);
+  min-width: car(--width-card);
+  border-radius: var(--border-radius);
+}
+
+.success {
+  border: 1px #0c0 solid;
+  background-color: rgba(0, 192, 0, 0.2);
+}
+
+.error {
+  border: 1px #c00 solid;
+  background-color: rgba(192, 0, 0, 0.2);
+}
