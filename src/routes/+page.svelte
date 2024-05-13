@@ -49,7 +49,7 @@ async function submitWebhook(e) {
     } else if (body.result === 'conflict') {
       resultDetail = 'Webhook is already in the database - if it isn\'t working please try again with a new webhook.'
     } else {
-      resultDetail = 'Something went wrong, but it\'s probably not your fault.';
+      resultDetail = 'Something went wrong, but it\'s probably not your fault - maybe ping @Stalruth on Twitter?.';
     }
   }
 }
